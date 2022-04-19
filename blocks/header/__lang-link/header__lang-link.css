@@ -1,0 +1,31 @@
+.header__lang-link {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 100%;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 3px;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
+  padding-left: 18px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc(24px - 0.01*(768px - 100vw));
+    line-height: calc(28px - 0.02*(768px - 100vw))
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+} 
