@@ -12,6 +12,6 @@
   text-rendering: optimizeLegibility;
 }
 
-a, div, section, ul, li, p, img, section {
+/* a, div, section, ul, li, p, img, section {
   outline: solid 1px red;
-}
+} */

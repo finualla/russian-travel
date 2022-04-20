@@ -1,9 +1,12 @@
 .place__paragraph {
-  color: white;
-  margin: 0;
+  margin: 26px 0 0 0;
   padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  line-height: 29.3px;
 }
 
-.place__paragraph:nth-child(2n) {
-  margin-top: 60px;
+.place__paragraph:nth-child(1) {
+  margin-top: 0;
 }

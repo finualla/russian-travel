@@ -7,8 +7,8 @@
   line-height: 28px;
   color: white;
   text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
 }
 
 .header__lang-link:last-child {

@@ -1,3 +1,13 @@
 .places {
+  position: relative;
+  margin: 0;
+  padding: 92px 0 92px 0;
+  box-sizing: border-box;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(320px, 984px));
+  grid-auto-flow: row;
+  max-width: 984px;
+  width: 100%;
+  grid-gap: 80px;
 }

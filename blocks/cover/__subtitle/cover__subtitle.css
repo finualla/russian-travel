@@ -4,13 +4,21 @@
   position: relative;
   color: white;
   text-align: center;
+  width: 30%;
+  max-width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279 px) {
+  .cover__subtitle {
+    width: 35%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-    width: 35%;
+    width: 47%;
   }
 }
 
@@ -18,6 +26,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 80%;
+    width: 90%;
+    padding-top: 16px;
   }
 }

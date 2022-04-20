@@ -1,6 +1,6 @@
 .lead {
   margin: 0 auto;
-  /* padding: 0 148px 92px 148px; */
+  padding: 0;
   width: 100%;
   max-width: 984px;
   box-sizing: border-box;
@@ -16,9 +16,3 @@
     padding-right: calc(148px - 0.39*(1279px - 100vw));
   }
 } 
-
-@media screen and (min-width: 768px) and (max-width: 1023) {
-  .lead {
-    padding-left: calc();
-  }
-}
