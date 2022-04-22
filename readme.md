@@ -18,4 +18,4 @@ ___
 ___
 **Автор проекта:** Белла Бжукова. 
 
-Посмотреть сайт на GitHub Pages.
+Посмотреть сайт на GitHub Pages --> https://finualla.github.io/russian-travel/.
