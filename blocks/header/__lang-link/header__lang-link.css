@@ -19,7 +19,7 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .header__lang-link {
     font-size: calc(24px - 0.01*(768px - 100vw));
-    line-height: calc(28px - 0.02*(768px - 100vw))
+    line-height: calc(28px - 0.02*(768px - 100vw));
   }
 }
 
