@@ -7,10 +7,7 @@
   line-height: 18px;
   text-decoration: none;
   color: white;
-  outline: rgb(140, 240, 57) 1px solid;
 }
-
-
 
 @media screen and (max-width: 767px) {
   .footer__link {

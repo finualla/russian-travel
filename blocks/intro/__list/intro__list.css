@@ -9,24 +9,24 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__list {
-    width: 94%;
-    padding-left: 24px;
-    padding-right: 24px;
+    width: 100%;
+    /* padding-left: 24px;
+    padding-right: 24px; */
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .intro__list {
     width: 100%;
-    padding-left: calc(24px - 0.02*(767px - 100vw));
-    padding-right: calc(24px - 0.02*(767px - 100vw));
+    /* padding-left: calc(24px - 0.02*(767px - 100vw));
+    padding-right: calc(24px - 0.02*(767px - 100vw)); */
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__list {
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
   }
 }
