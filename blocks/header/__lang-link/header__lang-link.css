@@ -10,7 +10,7 @@
 }
 
 .header__lang-link:first-child {
-  padding-left: 0
+  padding-left: 0;
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
