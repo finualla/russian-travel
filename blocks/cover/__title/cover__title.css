@@ -5,7 +5,7 @@
   box-sizing: border-box;
   max-width: 560px;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   width: 47%;
   font-size: 72px;
@@ -29,8 +29,8 @@
   .cover__title {
     padding-top: calc(115px - 0.18*(767px - 100vw));
     width: 90%;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: calc(72px - 0.0895*(767px - 100vw));
+    line-height: calc(76px - 0.0917*(767px - 100vw));
   }
 }
 
@@ -38,7 +38,7 @@
   .cover__title {
     padding-top: 33px;
     width: 90%;
-    font-size: 32px;
+    font-size: 27px;
     line-height: 35px;
   }
 }

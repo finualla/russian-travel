@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  flex-wrap: nowrap;
   width: 100%;
   max-width: 1184px;
   min-width: 288px;

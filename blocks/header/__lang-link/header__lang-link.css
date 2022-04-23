@@ -1,19 +1,16 @@
 .header__lang-link {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 18px;
   display: block;
   height: 100%;
   font-size: 24px;
   line-height: 28px;
   color: white;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 2px;
+  text-decoration: none;
 }
 
-.header__lang-link:last-child {
-  text-decoration: none;
-  padding-left: 18px;
+.header__lang-link:first-child {
+  padding-left: 0
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
