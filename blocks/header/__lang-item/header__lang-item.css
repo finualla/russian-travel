@@ -1,0 +1,8 @@
+.header__lang-item {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.header__lang-item:first-child {
+  padding-left: 0;
+}

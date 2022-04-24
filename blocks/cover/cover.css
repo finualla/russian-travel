@@ -8,11 +8,11 @@
   align-items: center;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   height: calc(100vw * 0.625);
   max-height: 740px;
   width: 100%;
-  max-width: 1184px;
+  /* max-width: 1184px; */
 }
 
 .cover::before {
@@ -26,7 +26,6 @@
   top: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  /* height: calc(100vw * 0.625);  */
   width: 100%;
   max-width: 1184px;
   transition: opacity 1s ease-out;

@@ -21,11 +21,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places {
     width: calc(100vw * 0.9375);
+    grid-gap: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     width: 100%;
+    padding-top: 64px;
+    grid-gap: 50px;
   }
 }
